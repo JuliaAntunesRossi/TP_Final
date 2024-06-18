@@ -31,7 +31,7 @@ Este repositório contém códigos desenvolvidos para o Trabalho Final da discip
 
 ### Associação
 
-- A classe `Turma` possui um vetor de ponteiros para `Professor`, demonstrando uma associação entre turmas e professores.
+- A classe `Turma` é associada `Professor`, demonstrando uma associação entre turmas e professores.
 
 ### Tratamento de Exceção
 
