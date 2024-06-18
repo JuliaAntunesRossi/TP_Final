@@ -21,6 +21,11 @@ Este repositório contém códigos desenvolvidos para o Trabalho Final da discip
 
 - As classes `Professor`, `Materia`, `Turma` e `Sistema` são implementadas em seus respectivos arquivos `.cpp` e `.hpp`, oferecendo estruturas e funcionalidades específicas para o gerenciamento de professores, matérias, turmas e sistema.
 
+### Herança e Polimorfismo
+
+- O projeto demonstra herança e polimorfismo nos seguintes arquivos:
+Professor.hpp e Professor.cpp: Professor herda de Usuario, demonstrando herança. 
+
 ### Encapsulamento
 
 - Cada classe encapsula seus atributos e métodos, garantindo que apenas métodos específicos possam acessar e modificar dados internos.
