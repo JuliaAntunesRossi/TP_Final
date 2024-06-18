@@ -23,8 +23,7 @@ Este repositório contém códigos desenvolvidos para o Trabalho Final da discip
 
 ### Herança e Polimorfismo
 
-- O projeto demonstra herança e polimorfismo nos seguintes arquivos:
-Professor.hpp e Professor.cpp: Professor herda de Usuario, demonstrando herança. O polimorfismo é demonstrado quando métodos da classe derivada sobrescrevem métodos da classe base, permitindo que objetos da classe derivada sejam tratados como objetos da classe base.
+- O projeto demonstra herança e polimorfismo.
 
 ### Encapsulamento
 
