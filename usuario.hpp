@@ -1,6 +1,7 @@
 #ifndef USUARIO_HPP
 #define USUARIO_HPP
 
+#include <iostream>
 #include <string>
 
 class Usuario {
