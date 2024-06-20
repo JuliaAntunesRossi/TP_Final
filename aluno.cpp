@@ -1,5 +1,5 @@
 #include "Aluno.hpp"
-<<<<<<< HEAD
+
 #include <iostream>
 
 Aluno::Aluno() : Usuario(), sobrenome("") {}
