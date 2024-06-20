@@ -1,5 +1,7 @@
 #include "Materia.hpp"
 
+#include <iostream>
+
 Materia::Materia(const std::string& codigo, const std::string& nome, const std::string& departamento)
     : codigo(codigo), nome(nome), departamento(departamento) {}
 
