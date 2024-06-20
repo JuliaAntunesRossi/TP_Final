@@ -1,5 +1,8 @@
 #include "Usuario.hpp"
 
+#include <iostream>
+#include <string>
+
 Usuario::Usuario() : nome(""), email(""), idade(0), sexo(' '), login(""), senha("") {}
 
 Usuario::Usuario(const std::string& nome, const std::string& email, int idade, char sexo, const std::string& login, const std::string& senha)
