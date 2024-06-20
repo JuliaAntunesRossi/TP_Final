@@ -4,6 +4,7 @@
 #define TURMA_HPP
 
 #include <vector>
+#include <iostream>
 
 class Turma {
 public:
