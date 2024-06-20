@@ -1,5 +1,8 @@
 #include "Turma.hpp"
 
+#include <iostream>
+#include <string>
+
 Turma::Turma(const std::string& codigo, int numeroVagas, const std::string& professor)
     : codigo(codigo), numeroVagas(numeroVagas), professor(professor) {}
 
