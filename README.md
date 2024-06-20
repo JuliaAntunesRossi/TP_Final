@@ -2,7 +2,7 @@
 
 # README - TP_Final_PDSII
 
-Este repositório contém códigos desenvolvidos para o Trabalho Final da disciplina Programação e Desenvolvimento de Software II (PDS2). Se trata de um sistema de gestão acadêmico de universidade como o SIGA ou o Moodle.
+Este repositório contém códigos desenvolvidos para o Trabalho Final da disciplina Programação e Desenvolvimento de Software II (PDS2). Se trata de um sistema de gestão acadêmico de universidade como o SIGA.
 
 ## Estrutura de Arquivos
 
