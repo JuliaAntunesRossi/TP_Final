@@ -104,6 +104,6 @@ Sistema sistema;
         
         // Tentativa de cadastrar o mesmo aluno novamente
         sistema.cadastrarAluno(aluno1);
-    } catch (const AlunoJaCadastradoException& e) {
+    } catch (const AlunoJaCadastrado& e) {
         std::cerr << "Exceção capturada: " << e.what() << std::endl;
     }
