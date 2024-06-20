@@ -1,6 +1,7 @@
 #ifndef PROFESSOR_HPP
 #define PROFESSOR_HPP
 
+#include <iostream>
 #include <string>
 #include "Usuario.hpp"
 
