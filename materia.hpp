@@ -1,6 +1,7 @@
 #ifndef MATERIA_HPP
 #define MATERIA_HPP
 
+#include <iostream>
 #include <string>
 
 class Materia {
