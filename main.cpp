@@ -6,6 +6,8 @@
 #include "Materia.hpp"
 #include "Professor.hpp"
 #include "Turma.hpp"
+#include "Usuario.hpp"
+
 
 TEST_CASE("Cadastro de Aluno e Acesso ao Sistema") {
     Sistema sistema;
@@ -90,3 +92,18 @@ TEST_CASE("Associação e Desassociação de Professores à Turma") {
     turma.associarProfessor(professor1);
     CHECK_EQ(turma.getProfessores().size(), 1
 }
+
+Sistema sistema;
+    // Exemplo de uso do sistema
+    try {
+        Aluno aluno1("João", "joao123", "senha123", 20, 'M', "joao@gmail.com", "Rua A");
+        sistema.cadastrarAluno(aluno1);
+        
+        Aluno aluno2("Maria", "maria456", "senha456", 22, 'F', "maria@gmail.com", "Rua B");
+        sistema.cadastrarAluno(aluno2);
+        
+        // Tentativa de cadastrar o mesmo aluno novamente
+        sistema.cadastrarAluno(aluno1);
+    } catch (const AlunoJaCadastradoException& e) {
+        std::cerr << "Exceção capturada: " << e.what() << std::endl;
+    }
