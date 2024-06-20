@@ -1,4 +1,5 @@
 #include "Aluno.hpp"
+<<<<<<< HEAD
 #include <iostream>
 
 Aluno::Aluno() : Usuario(), sobrenome("") {}
@@ -7,3 +8,4 @@ Aluno::Aluno(const std::string& nome, const std::string& sobrenome, const std::s
     : Usuario(nome, email, idade, sexo, login, senha), sobrenome(sobrenome) {}
 
 std::string Aluno::getSobrenome() const { return sobrenome; }
+
