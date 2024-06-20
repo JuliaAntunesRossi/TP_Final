@@ -50,6 +50,6 @@ Para compilar o programa:
    - Navegue até o diretório `códigos/`.
    - Compile os arquivos `.cpp` juntos:
      ```
-     g++ -o programa main.cpp sistema.cpp turma.cpp professor.cpp materia.cpp -I.
+     g++ -o programa main.cpp sistema.cpp turma.cpp professor.cpp materia.cpp usuario.cpp -I.
      
      ```
