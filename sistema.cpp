@@ -16,13 +16,6 @@ public:
         : std::runtime_error(message) {}
 };
 
-Sistema::Sistema() {
-    // Inicializar a matriz de alunos
-    for (int i = 0; i < 100; ++i) {
-        alunos[i] = Aluno("", "", "", 0, ' ', "", "");
-    }
-}
-
 void Sistema::cadastrarAluno(const Aluno& aluno) {
     // Verificar se o aluno já está cadastrado
    for (int i = 0; i < totalAlunos; ++i) {
