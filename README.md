@@ -8,7 +8,9 @@ Este repositório contém códigos desenvolvidos para o Trabalho Final da discip
 
 - **códigos/**
   - **Turma/**
+    - `Usuario.cpp`, `Usuario.hpp`: Implementação da classe `Usuario`.
     - `Professor.cpp`, `Professor.hpp`: Implementação da classe `Professor`.
+    - `Aluno.cpp`, `Aluno.hpp`: Implementação da classe `Aluno`.
     - `Materia.cpp`, `Materia.hpp`: Implementação da classe `Materia`.
     - `Turma.cpp`, `Turma.hpp`: Implementação da classe `Turma`.
   - **Sistema/**
@@ -19,7 +21,7 @@ Este repositório contém códigos desenvolvidos para o Trabalho Final da discip
 
 ### Classes e Objetos
 
-- As classes `Professor`, `Materia`, `Turma` e `Sistema` são implementadas em seus respectivos arquivos `.cpp` e `.hpp`, oferecendo estruturas e funcionalidades específicas para o gerenciamento de professores, matérias, turmas e sistema.
+- As classes `Professor`, `Materia`, `Aluno`,`Usuario`, `Turma` e `Sistema` são implementadas em seus respectivos arquivos `.cpp` e `.hpp`, oferecendo estruturas e funcionalidades específicas para o gerenciamento de usuários, alunos, professores, matérias, turmas e sistema.
 
 ### Herança e Polimorfismo
 
