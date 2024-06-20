@@ -9,12 +9,25 @@ Sistema::Sistema() {
     }
 }
 
+// Exceção para aluno já cadastrado
+class AlunoJaCadastrado : public std::runtime_error {
+public:
+    AlunoJaCadastrado(const std::string& message)
+        : std::runtime_error(message) {}
+};
+
+Sistema::Sistema() {
+    // Inicializar a matriz de alunos
+    for (int i = 0; i < 100; ++i) {
+        alunos[i] = Aluno("", "", "", 0, ' ', "", "");
+    }
+}
+
 void Sistema::cadastrarAluno(const Aluno& aluno) {
     // Verificar se o aluno já está cadastrado
-    for (int i = 0; i < totalAlunos; ++i) {
+   for (int i = 0; i < totalAlunos; ++i) {
         if (alunos[i].getEmail() == aluno.getEmail()) {
-            std::cout << "Aluno já cadastrado. Use o login existente.\n";
-            return;
+            throw AlunoJaCadastrado("Aluno já cadastrado. Use o login existente.");
         }
     }
     // Cadastrar o aluno
